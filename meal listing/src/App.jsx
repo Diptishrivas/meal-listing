@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-3xl font-bold mb-6">🍽️ Meals Listing</h1>
+      <h1 className="text-3xl font-bold mb-6">Meals Listing</h1>
 
       {status === "loading" && (
         <p className="text-blue-500">Loading meals...</p>
